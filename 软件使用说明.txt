@@ -1,0 +1,11 @@
+Sentinel One · 币安 Agent OS 风险哨兵
+
+最简单的启动方式：双击「启动 Sentinel One.bat」。
+
+首次运行需要电脑安装 Node.js 20+：
+https://nodejs.org/
+
+启动后会自动打开 http://localhost:3000。
+程序默认使用 Binance Agent OS 模式（AGENT_OS_ONLY=true）。首次使用时，若宿主环境要求授权，请在浏览器完成 Binance OAuth。
+
+这是只读演示软件，不会自动下单、提现或转账。

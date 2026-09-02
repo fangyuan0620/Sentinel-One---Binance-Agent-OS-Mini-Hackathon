@@ -10,7 +10,8 @@
     "test": "node --test",
     "check": "node --check server.js && node --check src/agent.js && node --check src/agentos.js && node --check public/app.js",
     "package": "npm pack --pack-destination dist",
-    "demo": "python scripts/make_demo.py"
+    "demo": "python scripts/make_demo.py",
+    "bundle": "powershell -ExecutionPolicy Bypass -File scripts/build_bundle.ps1"
   },
   "engines": {
     "node": ">=20"
