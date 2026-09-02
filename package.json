@@ -1,0 +1,20 @@
+{
+  "name": "sentinel-one-binance-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read-only AI market risk copilot for the Binance Agent OS Mini Hackathon",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "node --test",
+    "check": "node --check server.js && node --check src/agent.js && node --check src/agentos.js && node --check public/app.js",
+    "package": "npm pack --pack-destination dist",
+    "demo": "python scripts/make_demo.py"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.30.0" }
+}

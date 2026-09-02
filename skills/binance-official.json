@@ -1,0 +1,31 @@
+{
+  "source": "https://www.binance.com/en/skills",
+  "catalog": "Binance Skills Hub",
+  "selected": [
+    {
+      "slug": "crypto-market-rank",
+      "publisher": "binance-web3",
+      "url": "https://www.binance.com/en/skills/detail/binance-web3/crypto-market-rank",
+      "role": "市场排行与热点资产发现",
+      "mode": "read-only",
+      "reason": "为 Sentinel One 的市场扫描提供跨资产候选与市场广度上下文"
+    },
+    {
+      "slug": "binance-trading-signal",
+      "publisher": "binance-web3",
+      "url": "https://www.binance.com/en/skills/detail/binance-web3/binance-trading-signal",
+      "role": "链上交易信号复核",
+      "mode": "read-only",
+      "reason": "把链上 smart-money 信号作为第二意见，不改变本地 Risk Gate"
+    },
+    {
+      "slug": "query-token-audit",
+      "publisher": "binance-web3",
+      "url": "https://www.binance.com/en/skills/detail/binance-web3/query-token-audit",
+      "role": "代币安全审计",
+      "mode": "read-only",
+      "reason": "在未来支持 Web3 资产前，先检查 honeypot、恶意合约等风险"
+    }
+  ],
+  "policy": "官方 skill 只作为只读增强信号；任何 skill 都不能绕过 Risk Gate，也不能触发下单。"
+}
